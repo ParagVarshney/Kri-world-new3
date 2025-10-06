@@ -48,9 +48,9 @@ const Plans = () => {
             <h3 className="text-xl font-semibold mb-2">{plan.title}</h3>
 
             {/* Price */}
-            <p className="text-lg font-medium mb-4">
-              Starting from <span className="font-bold text-green-600">{plan.price}</span>
-            </p>
+            // <p className="text-lg font-medium mb-4">
+            //   Starting from <span className="font-bold text-green-600">{plan.price}</span>
+            // </p>
 
             {/* Features */}
             <ul className="text-gray-700 text-lg space-y-2 mb-6">
@@ -73,4 +73,5 @@ const Plans = () => {
 };
 
 export default Plans;
+
 
