@@ -3,7 +3,7 @@ import React from "react";
 
 export default function MobileActionButtons() {
   return (
-    <div className="fixed bottom-0 left-0 py-4 right-0 z-50 flex md:hidden shadow-lg">
+    <div className="fixed bottom-0 left-0 py-0 right-0 z-50 flex md:hidden shadow-lg">
       {/* Call Now Button */}
       <a
         href="tel:+918700661267"
@@ -24,4 +24,5 @@ export default function MobileActionButtons() {
     </div>
   );
 }
+
 
